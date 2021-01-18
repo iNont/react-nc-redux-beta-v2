@@ -1,10 +1,13 @@
 {
-  "name": "test-new-module",
-  "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "name": "react-nc-redux-beta",
+  "version": "2.0.0-2",
+  "description": "Enhanced `react-nc` by using functionality of `react-redux` and simplified redux development steps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iNont/react-nc-redux-betag.git"
+  },
   "author": "",
   "license": "MIT",
-  "repository": "/test-new-module",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -24,7 +27,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-redux": "^7.2.2"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -49,5 +53,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  }
 }
