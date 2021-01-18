@@ -1,10 +1,10 @@
 {
   "name": "react-nc-redux-beta",
-  "version": "2.0.0-2",
+  "version": "2.0.0-3",
   "description": "Enhanced `react-nc` by using functionality of `react-redux` and simplified redux development steps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iNont/react-nc-redux-betag.git"
+    "url": "https://github.com/iNont/react-nc-redux-beta-v2"
   },
   "author": "",
   "license": "MIT",
